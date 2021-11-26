@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.Item {
+  border: 1px solid black;
+  width: 600px;
+  border-radius: 25px;
+  height: 25px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.Row {
+  width: 600px;
+  height: 25px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  padding: 25px;
+}
+
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+  
+}
+
+button:hover {
+  background-color: lightgrey;
+}
